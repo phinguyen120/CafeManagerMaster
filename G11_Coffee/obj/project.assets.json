@@ -5070,19 +5070,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\N g o c T a n\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\G08.csproj",
+      "projectUniqueName": "C:\\Users\\N g o c T a n\\Source\\Repos\\CafeManagerMaster\\G11_Coffee\\G08.csproj",
       "projectName": "G08",
-      "projectPath": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\G08.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\obj\\",
+      "projectPath": "C:\\Users\\N g o c T a n\\Source\\Repos\\CafeManagerMaster\\G11_Coffee\\G08.csproj",
+      "packagesPath": "C:\\Users\\N g o c T a n\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\N g o c T a n\\Source\\Repos\\CafeManagerMaster\\G11_Coffee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\N g o c T a n\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5090,7 +5090,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5162,7 +5161,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

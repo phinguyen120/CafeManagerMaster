@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace G08.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241126221930_ini")]
-    partial class ini
+    [Migration("20241127161308_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
