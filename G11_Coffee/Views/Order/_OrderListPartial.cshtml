@@ -1,0 +1,25 @@
+﻿@model IEnumerable<G11_Coffee.Models.Order>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order Date</th>
+            <th>Cafe</th>
+            <th>Total Amount</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>@order.Cafe.Name</td>
+                <td>@order.TotalAmount.ToString("C")</td>
+                <td>
+                    <button class="btn btn-info details-btn" data-id="@order.Id">Details</button>
+                    <button class="btn btn-secondary print-btn" data-id="@order.Id">Print</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

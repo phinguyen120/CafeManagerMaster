@@ -1,0 +1,21 @@
+﻿@model IEnumerable<G11_Coffee.Models.Product>
+
+@foreach (var product in Model)
+{
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            @if (!string.IsNullOrEmpty(product.Image))
+            {
+                <img src="@product.Image" class="card-img-top" alt="@product.Name" />
+            }
+            <div class="card-body">
+                <h5 class="card-title">@product.Name</h5>
+                <p class="card-text">@product.Description</p>
+                <p class="card-text">@product.Price.ToString("C")</p>
+                <p class="card-text">Category: @product.Category?.Name</p>
+                <button class="btn btn-sm btn-warning editProductBtn" data-id="@product.Id">Edit</button>
+                <button class="btn btn-sm btn-danger deleteProductBtn" data-id="@product.Id">Delete</button>
+            </div>
+        </div>
+    </div>
+}

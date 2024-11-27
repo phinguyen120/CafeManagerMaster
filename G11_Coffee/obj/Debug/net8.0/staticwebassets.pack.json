@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\G08.bundle.scp.css",
+      "PackagePath": "staticwebassets\\G08.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\558d1f81-9214-4a64-88a4-1a1c15f20230_Pastry_3.jfif",
+      "PackagePath": "staticwebassets\\images\\558d1f81-9214-4a64-88a4-1a1c15f20230_Pastry_3.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\56c66310-ddeb-4eeb-9e90-44a401e25fc1.jfif",
+      "PackagePath": "staticwebassets\\images\\56c66310-ddeb-4eeb-9e90-44a401e25fc1.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Black_Coffee.jfif",
+      "PackagePath": "staticwebassets\\images\\Black_Coffee.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Brown_Coffee.jfif",
+      "PackagePath": "staticwebassets\\images\\Brown_Coffee.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Matcha.jfif",
+      "PackagePath": "staticwebassets\\images\\Matcha.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Milk_Coffee.jfif",
+      "PackagePath": "staticwebassets\\images\\Milk_Coffee.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Pastry_1.jfif",
+      "PackagePath": "staticwebassets\\images\\Pastry_1.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Pastry_2.jfif",
+      "PackagePath": "staticwebassets\\images\\Pastry_2.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Pastry_3.jfif",
+      "PackagePath": "staticwebassets\\images\\Pastry_3.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\Tea.jfif",
+      "PackagePath": "staticwebassets\\images\\Tea.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\ab17dab5-4df0-4248-8740-13266fc8006b.jfif",
+      "PackagePath": "staticwebassets\\images\\ab17dab5-4df0-4248-8740-13266fc8006b.jfif"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\b1.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b10.jpg",
+      "PackagePath": "staticwebassets\\images\\b10.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b11.jpg",
+      "PackagePath": "staticwebassets\\images\\b11.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\b2.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b3.jpg",
+      "PackagePath": "staticwebassets\\images\\b3.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b4.jpg",
+      "PackagePath": "staticwebassets\\images\\b4.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b5.jpg",
+      "PackagePath": "staticwebassets\\images\\b5.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b6.jpg",
+      "PackagePath": "staticwebassets\\images\\b6.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b7.jpg",
+      "PackagePath": "staticwebassets\\images\\b7.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b8.jpg",
+      "PackagePath": "staticwebassets\\images\\b8.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\b9.jpg",
+      "PackagePath": "staticwebassets\\images\\b9.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\cafe.jpg",
+      "PackagePath": "staticwebassets\\images\\cafe.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\hinhnen.jpg",
+      "PackagePath": "staticwebassets\\images\\hinhnen.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\phindi_kem.jpg",
+      "PackagePath": "staticwebassets\\images\\phindi_kem.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\trasen.jpg",
+      "PackagePath": "staticwebassets\\images\\trasen.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\trathachdao.jpg",
+      "PackagePath": "staticwebassets\\images\\trathachdao.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\images\\traxanh.jpg",
+      "PackagePath": "staticwebassets\\images\\traxanh.jpg"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BTL_WEB\\G08_Coffee_Management-master\\G08_Coffee_Management-maste\\G11_Coffee\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.G08.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.G08.props",
+      "PackagePath": "build\\G08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.G08.props",
+      "PackagePath": "buildMultiTargeting\\G08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.G08.props",
+      "PackagePath": "buildTransitive\\G08.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

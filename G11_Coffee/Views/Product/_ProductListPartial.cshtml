@@ -1,0 +1,15 @@
+﻿@model IEnumerable<G11_Coffee.Models.Product>
+
+@foreach (var product in Model)
+{
+    <tr>
+        <td>@product.Name</td>
+        <td>@product.Description</td>
+        <td>@product.Price.ToString("C")</td>
+        <td>@product.Category?.Name</td>
+        <td>
+            <button class="btn btn-sm btn-warning editProductBtn" data-id="@product.Id">Edit</button>
+            <button class="btn btn-sm btn-danger deleteProductBtn" data-id="@product.Id">Delete</button>
+        </td>
+    </tr>
+}

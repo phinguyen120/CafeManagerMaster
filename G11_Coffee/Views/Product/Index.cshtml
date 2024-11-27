@@ -1,0 +1,132 @@
+﻿@model IEnumerable<G11_Coffee.Models.Product>
+@{
+    ViewData["Title"] = "Product Management";
+}
+
+<h2>Product Management</h2>
+
+<div class="row mb-3">
+    <div class="col-md-10">
+        <input type="text" id="searchBox" class="form-control" placeholder="Search products..." />
+    </div>
+    <div class="col-md-2">
+        <button id="addProductBtn" class="btn btn-primary">Add New Product</button>
+    </div>
+</div>
+
+<div class="row" id="productContainer">
+    @await Html.PartialAsync("_ProductGridPartial", Model)
+</div>
+
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productModalLabel">Add/Edit Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="productModalBody">
+                <!-- Partial view will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Add Product Button Click
+            $('#addProductBtn').click(function () {
+                $.get('@Url.Action("Create", "Product")', function (data) {
+                    $('#productModalBody').html(data);
+                    $('#productModal').modal('show');
+                });
+            });
+
+            // Edit Product Button Click
+            $(document).on('click', '.editProductBtn', function () {
+                var id = $(this).data('id');
+                $.get('@Url.Action("Edit", "Product")', { id: id }, function (data) {
+                    $('#productModalBody').html(data);
+                    $('#productModal').modal('show');
+                });
+            });
+
+            $(document).on('click', '.deleteProductBtn', function (e) {
+                e.preventDefault();
+                var id = $(this).data('id');
+                $.ajax({
+                    url: '@Url.Action("DeletePartial", "Product")' + '/' + id,
+                    type: 'GET',
+                    success: function (result) {
+                        $('#productModalBody').html(result);
+                        $('#productModalLabel').text('Delete Product');
+                        $('#productModal').modal('show');
+                    }
+                });
+            });
+
+            // Form Submission
+            $(document).on('submit', '#deleteProductForm', function (e) {
+                e.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    type: form.attr('method'),
+                    url: form.attr('action'),
+                    data: form.serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            $('#productModal').modal('hide');
+                            updateProductGrid();
+                        } else {
+                            alert('An error occurred. Please try again.');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error: ', status, error);
+                        alert('An error occurred. Please try again.');
+                    }
+                });
+            });
+
+            // Form Submission
+            $(document).on('submit', '#productForm', function (e) {
+                e.preventDefault();
+                var form = $(this);
+                var formData = new FormData(form[0]);
+
+                $.ajax({
+                    type: form.attr('method'),
+                    url: form.attr('action'),
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        if (response.success) {
+                            $('#productModal').modal('hide');
+                            updateProductGrid();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error: ', status, error);
+                        alert('An error occurred. Please try again.');
+                    }
+                });
+            });
+
+            // Update Product Grid
+            function updateProductGrid() {
+                $.get('@Url.Action("Search", "Product")', { query: $('#searchBox').val() }, function (data) {
+                    $('#productContainer').html(data);
+                });
+            }
+
+            // Search Box Keyup Event
+            $('#searchBox').on('keyup', function () {
+                updateProductGrid();
+            });
+        });
+    </script>
+}

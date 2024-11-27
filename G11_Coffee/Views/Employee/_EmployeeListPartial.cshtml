@@ -1,0 +1,16 @@
+﻿@model IEnumerable<G11_Coffee.Models.Employee>
+
+@foreach (var employee in Model)
+{
+    <tr>
+        <td>@employee.FullName</td>
+        <td>@employee.Position</td>
+        <td>@employee.Email</td>
+        <td>@employee.Phone</td>
+        <td>@employee.Cafe.Name</td>
+        <td>
+            <button class="btn btn-warning btn-sm editEmployeeBtn" data-id="@employee.Id">Edit</button>
+            <!-- Add delete button if needed -->
+        </td>
+    </tr>
+}

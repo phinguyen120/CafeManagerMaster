@@ -1,0 +1,19 @@
+﻿@model IEnumerable<G11_Coffee.Models.CafeViewModel>
+
+<div class="row">
+    @foreach (var cafe in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="@cafe.Image" class="card-img-top" alt="@cafe.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@cafe.Name</h5>
+                    <p class="card-text">@cafe.Address</p>
+                    <p class="card-text">@cafe.Phone</p>
+                    <a href="#" class="btn btn-secondary editCafeButton" data-id="@cafe.Id">Edit</a>
+                    <a href="#" class="btn btn-danger deleteCafeButton" data-id="@cafe.Id">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

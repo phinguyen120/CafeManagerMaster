@@ -1,0 +1,116 @@
+﻿@* @model G11_Coffee.Models.RevenueViewModel
+@if (Model == null)
+{
+    <p>Không có dữ liệu hiển thị</p>
+    return;
+}
+
+<div id="report">
+    <h2>Báo cáo doanh thu</h2>
+    <p><strong>Khoảng thời gian:</strong> @Model.StartDate?.ToShortDateString() - @Model.EndDate?.ToShortDateString()</p>
+    <p><strong>Tổng doanh thu:</strong> @Model.TotalRevenue.ToString("C")</p>
+
+    @if (Model.MonthlyRevenue != null && Model.MonthlyRevenue.Any())
+    {
+        <h4>Doanh thu theo tháng</h4>
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>Tháng</th>
+                    <th>Doanh thu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.MonthlyRevenue)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.YearlyRevenue != null && Model.YearlyRevenue.Any())
+    {
+        <h4>Doanh thu theo năm</h4>
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>Năm</th>
+                    <th>Doanh thu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.YearlyRevenue)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (Model.CafeRevenue != null && Model.CafeRevenue.Any())
+    {
+        <h4>Doanh thu theo chi nhánh</h4>
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>Chi nhánh</th>
+                    <th>Doanh thu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CafeRevenue)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <h4>Sách bán chạy nhất</h4>
+    @if (Model.BestSellingProduct != null)
+    {
+        <p>@Model.BestSellingProduct.Name</p>
+    }
+    else
+    {
+        <p>Không có dữ liệu để hiển thị</p>
+    }
+
+    @if (Model.Orders != null && Model.Orders.Any())
+    {
+        <h4>Đơn hàng</h4>
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>Mã đơn hàng</th>
+                    <th>Ngày đặt hàng</th>
+                    <th>Nhân viên</th>
+                    <th>Chi nhánh</th>
+                    <th>Tổng giá trị</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.OrderDate.ToShortDateString()</td>
+                        <td>@order.Employee.FullName</td>
+                        <td>@order.Cafe.Name</td>
+                        <td>@order.TotalAmount.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div> *@

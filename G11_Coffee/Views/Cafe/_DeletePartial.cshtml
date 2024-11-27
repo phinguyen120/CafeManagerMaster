@@ -1,0 +1,12 @@
+﻿@model G11_Coffee.Models.CafeViewModel
+
+<form id="deleteCafeForm" method="post" action="@Url.Action("DeletePartial")">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <p>Are you sure you want to delete the cafe "<strong>@Model.Name</strong>"?</p>
+    </div>
+    <div class="text-end">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+    </div>
+</form>

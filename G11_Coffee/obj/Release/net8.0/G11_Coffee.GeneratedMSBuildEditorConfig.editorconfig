@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = G11_Coffee
+build_property.RootNamespace = G11_Coffee
+build_property.ProjectDir = D:\BTL_WEB\G11_Coffee_ChainsManagement-master (1)\G11_Coffee_ChainsManagement-master\G11_Coffee\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\BTL_WEB\G11_Coffee_ChainsManagement-master (1)\G11_Coffee_ChainsManagement-master\G11_Coffee
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Account/_AccountListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfQWNjb3VudExpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/_CafeGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxfQ2FmZUdyaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/_CafeTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxfQ2FmZVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/_CreatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxfQ3JlYXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/_DeletePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxfRGVsZXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Cafe/_EditPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxfRWRpdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Employee/_CreateEmployeePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0NyZWF0ZUVtcGxveWVlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Employee/_EditEmployeePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0VkaXRFbXBsb3llZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Employee/_EmployeeListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0VtcGxveWVlTGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Order/_CreateOrderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX0NyZWF0ZU9yZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Order/_OrderDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX09yZGVyRGV0YWlsc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Order/_OrderListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX09yZGVyTGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Order/_PrintInvoicePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX1ByaW50SW52b2ljZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Product/_DeletePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfRGVsZXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Product/_ProductFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdEZvcm1QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Product/_ProductGridPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdEdyaWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Product/_ProductListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdExpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Revenue/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Revenue/_OrderListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxfT3JkZXJMaXN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Revenue/_ReportPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxfUmVwb3J0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_WEB/G11_Coffee_ChainsManagement-master (1)/G11_Coffee_ChainsManagement-master/G11_Coffee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tu8lavl6os

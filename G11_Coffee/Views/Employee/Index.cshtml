@@ -1,0 +1,105 @@
+﻿@model IEnumerable<G11_Coffee.Models.Employee>
+@{
+    ViewData["Title"] = "Employee Management";
+}
+<h2>Employee Management</h2>
+<div class="row mb-3">
+    <div class="col-md-10">
+        <input type="text" id="searchBox" class="form-control" placeholder="Search employees..." />
+    </div>
+    <div class="col-md-2">
+        <button id="addEmployeeBtn" class="btn btn-primary">Add New Employee</button>
+    </div>
+</div>
+<table id="employeeTable" class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Cafe</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="employeeTableBody">
+        @await Html.PartialAsync("_EmployeeListPartial", Model)
+    </tbody>
+</table>
+<div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="employeeModalLabel">Add/Edit Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="employeeModalBody">
+                <!-- Partial view will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Add Employee Button Click
+            $('#addEmployeeBtn').click(function () {
+                loadEmployeeForm('@Url.Action("Create", "Employee")');
+            });
+
+            // Edit Employee Button Click
+            $(document).on('click', '.editEmployeeBtn', function () {
+                var id = $(this).data('id');
+                loadEmployeeForm('@Url.Action("Edit", "Employee")', { id: id });
+            });
+
+            // Form Submission
+            $(document).on('submit', '#employeeForm', function (e) {
+                e.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    type: form.attr('method'),
+                    url: form.attr('action'),
+                    data: form.serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            $('#employeeModal').modal('hide');
+                            updateEmployeeTable();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error: ', status, error);
+                        alert('An error occurred. Please try again.');
+                    }
+                });
+            });
+
+            // Update Employee Table
+            function updateEmployeeTable() {
+                $.get('@Url.Action("Search", "Employee")', { query: $('#searchBox').val() }, function (data) {
+                    $('#employeeTableBody').html(data);
+                });
+                $.get('@Url.Action("Index", "Employee")', function (data) {
+                    var parsed = $.parseHTML(data);
+                    var newTableBody = $(parsed).find('#employeeTableBody').html();
+                    $('#employeeTableBody').html(newTableBody);
+                });
+            }
+
+            // Search Box Keyup Event
+            $('#searchBox').on('keyup', function () {
+                updateEmployeeTable();
+            });
+
+            // Load Employee Form
+            function loadEmployeeForm(url, data) {
+                $.get(url, data, function (response) {
+                    $('#employeeModalBody').html(response);
+                    $('#employeeModal').modal('show');
+                });
+            }
+        });
+    </script>
+}

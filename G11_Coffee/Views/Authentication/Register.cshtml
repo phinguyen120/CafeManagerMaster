@@ -1,0 +1,126 @@
+﻿@model G11_Coffee.Models.User
+@{
+    ViewData["Title"] = "Đăng ký";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G08 Coffee - Đăng ký</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+        }
+
+        .image-side {
+            flex: 1;
+            background-image: url('@Url.Content("~/images/b1.jpg")');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-side {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5dc;
+        }
+
+        .login-box {
+            width: 300px;
+            padding: 40px;
+            background-color: #e5e5b5;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            color: #333;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            button:hover {
+                background-color: #357ae8;
+            }
+
+        .validation-message {
+            color: #dc3545;
+            font-size: 0.875em;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+
+        .register-button {
+            margin-top: 12px;
+            background-color: #28a745; /* Green color for register button */
+        }
+
+            .register-button:hover {
+                background-color: #218838; /* Darker green when hovered */
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-side"></div>
+        <div class="login-side">
+            <div class="login-box">
+                <h2>G08 Coffee</h2>
+                <form asp-action="Register" method="post">
+                    <div>
+                        <input asp-for="Email" placeholder="Email" required />
+                        <span asp-validation-for="Email" class="validation-message"></span>
+                    </div>
+                    <div>
+                        <input asp-for="FullName" placeholder="FullName" required />
+                        <span asp-validation-for="FullName" class="validation-message"></span>
+                    </div>
+                    <div>
+                        <input asp-for="PhoneNumber" placeholder="PhoneNumber" required />
+                        <span asp-validation-for="PhoneNumber" class="validation-message"></span>
+                    </div>
+                    <div>
+                        <input asp-for="Password" type="password" placeholder="Mật khẩu" required />
+                        <span asp-validation-for="Password" class="validation-message"></span>
+                    </div>
+                    <button type="submit">Đăng ký</button>
+                    <button type="button" class="register-button" onclick="location.href='@Url.Action("Login", "Authentication")'">Đăng nhập</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

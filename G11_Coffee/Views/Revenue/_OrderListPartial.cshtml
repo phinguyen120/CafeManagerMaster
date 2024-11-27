@@ -1,0 +1,26 @@
+﻿@* @model IEnumerable<G11_Coffee.Models.Order>
+
+<table class="table custom-table">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>
+            <th>Ngày mua hàng</th>
+            <th>Nhân viên</th>
+            <th>Chi nhánh</th>
+            <th>Tổng giá trị</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.OrderDate.ToShortDateString()</td>
+                <td>@order.Employee.FullName</td>
+                <td>@order.Cafe.Name</td>
+                <td>@order.TotalAmount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@

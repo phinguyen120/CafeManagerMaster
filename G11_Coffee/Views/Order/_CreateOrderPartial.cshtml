@@ -1,0 +1,98 @@
+﻿@model G11_Coffee.Models.OrderViewModel
+
+<h2>Create New Order</h2>
+<form id="createOrderForm" method="post" action="@Url.Action("Create", "Order")">
+    <div class="form-group">
+        <label asp-for="CafeId" class="control-label">Cafe</label>
+        <select asp-for="CafeId" asp-items="ViewBag.Cafes" class="form-control" required>
+            <option value="">-- Select Cafe --</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="OrderDate" class="control-label">Order Date</label>
+        <input asp-for="OrderDate" class="form-control" type="datetime-local" required />
+    </div>
+
+    <h3>Order Details</h3>
+    <div id="orderDetails">
+        <!-- Order details will be added here dynamically -->
+    </div>
+    <button type="button" id="addProductBtn" class="btn btn-secondary">Add Product</button>
+
+    <div class="form-group mt-3">
+        <label asp-for="TotalAmount" class="control-label">Total Amount</label>
+        <input asp-for="TotalAmount" class="form-control" readonly />
+    </div>
+
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-primary">Create Order</button>
+    </div>
+    @Html.AntiForgeryToken()
+</form>
+
+<script id="orderDetailTemplate" type="text/x-template">
+    <div class="order-detail-item mb-2">
+        <select name="OrderDetails[{index}].ProductId" class="form-control product-select" required>
+            <option value="">-- Select Product --</option>
+    @foreach (var item in ViewBag.Products)
+    {
+                        <option value="@item.Value">@item.Text</option>
+    }
+        </select>
+        <input type="number" name="OrderDetails[{index}].Quantity" class="form-control quantity" placeholder="Quantity" min="1" required />
+        <input type="number" name="OrderDetails[{index}].Price" class="form-control price" placeholder="Price" step="0.01" min="0" required />
+        <button type="button" class="btn btn-danger remove-product">Remove</button>
+    </div>
+</script>
+
+<script>
+    $(document).ready(function () {
+        let orderDetailIndex = 0;
+
+        $('#addProductBtn').click(function () {
+            let template = $('#orderDetailTemplate').html();
+            template = template.replace(/{index}/g, orderDetailIndex++);
+            $('#orderDetails').append(template);
+        });
+
+        $(document).on('click', '.remove-product', function () {
+            $(this).closest('.order-detail-item').remove();
+            calculateTotalAmount();
+        });
+
+        $(document).on('input', '.quantity, .price', function () {
+            calculateTotalAmount();
+        });
+
+        function calculateTotalAmount() {
+            let total = 0;
+            $('.order-detail-item').each(function () {
+                const quantity = parseInt($(this).find('.quantity').val()) || 0;
+                const price = parseFloat($(this).find('.price').val()) || 0;
+                total += quantity * price;
+            });
+            $('#TotalAmount').val(total.toFixed(2));
+        }
+
+        $('#createOrderForm').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: this.action,
+                method: this.method,
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        $('#employeeModal').modal('hide');
+                        updateOrderTable();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('An error occurred. Please try again.');
+                }
+            });
+        });
+    });
+</script>

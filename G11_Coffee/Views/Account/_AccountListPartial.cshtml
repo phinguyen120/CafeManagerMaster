@@ -1,0 +1,14 @@
+﻿@model IEnumerable<G11_Coffee.Models.ViewModel.UserViewModel>
+
+@foreach (var user in Model)
+{
+    <tr>
+        <td>@user.FullName</td>
+        <td>@user.Email</td>
+        <td>@user.PhoneNumber</td>
+        <td>@user.Cafes</td>
+        <td>
+            <button class="btn btn-warning btn-sm editEmployeeBtn" data-id="@user.Id">Edit</button>
+        </td>
+    </tr>
+}

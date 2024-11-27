@@ -1,0 +1,44 @@
+﻿@model G11_Coffee.Models.Employee
+
+<div class="modal-body">
+    <form id="employeeForm" method="post" action="@Url.Action("Edit", "Employee")">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="form-group">
+            <label for="FullName">Full Name</label>
+            <input class="form-control" type="text" id="FullName" name="FullName" value="@Model.FullName" required />
+        </div>
+        <div class="form-group">
+            <label for="Position">Position</label>
+            <input class="form-control" type="text" id="Position" name="Position" value="@Model.Position" required />
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input class="form-control" type="email" id="Email" name="Email" value="@Model.Email" required />
+        </div>
+        <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input class="form-control" type="text" id="Phone" name="Phone" value="@Model.Phone" />
+        </div>
+        <div class="form-group">
+            <label for="CafeId">Cafe</label>
+            <select id="CafeId" name="CafeId" class="form-control" required>
+                <option value="">Select Cafe</option>
+                @foreach (var cafe in (SelectList)ViewBag.Cafes)
+                {
+                    if (cafe.Value == Model.CafeId.ToString())
+                    {
+                        <option value="@cafe.Value" selected>@cafe.Text</option>
+                    }
+                    else
+                    {
+                        <option value="@cafe.Value">@cafe.Text</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+        @Html.AntiForgeryToken()
+    </form>
+</div>

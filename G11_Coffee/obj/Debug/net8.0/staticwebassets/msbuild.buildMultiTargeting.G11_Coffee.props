@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\G11_Coffee.props" />
+</Project>
