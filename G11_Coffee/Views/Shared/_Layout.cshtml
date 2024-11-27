@@ -22,6 +22,7 @@
                     <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated && User.HasClaim(c => c.Type == ClaimUserLogin.Email && c.Value == "admin@gmail.com"))
                         {
+// ngoc tan
                             <li class="nav-item">
                                 <a class="nav-link" href="/Account"><i class="fas fa-user-cog"></i> Tài khoản</a>
                             </li>
